@@ -1,6 +1,6 @@
 package gateway
 
-import "github.com.br/devfullcycle/fc-ms-wallet/internal/entity"
+import "github.com.br/luisbilecki/fullcycle-eda/internal/entity"
 
 type TransactionGateway interface {
 	Create(transaction *entity.Transaction) error

@@ -1,4 +1,4 @@
-module github.com.br/devfullcycle/fc-ms-wallet
+module github.com.br/luisbilecki/fullcycle-eda
 
 go 1.19
 

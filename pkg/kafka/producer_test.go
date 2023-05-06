@@ -19,7 +19,6 @@ func TestProducerPublish(t *testing.T) {
 		Status:       "rejected",
 		ErrorMessage: "you dont have limit for this transaction",
 	}
-	// outputJson, _ := json.Marshal(expectedOutput)
 
 	configMap := ckafka.ConfigMap{
 		"test.mock.num.brokers": 3,

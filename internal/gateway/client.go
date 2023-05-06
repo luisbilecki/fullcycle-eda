@@ -1,7 +1,7 @@
 package gateway
 
 import (
-	"github.com.br/devfullcycle/fc-ms-wallet/internal/entity"
+	"github.com.br/luisbilecki/fullcycle-eda/internal/entity"
 )
 
 type ClientGateway interface {
